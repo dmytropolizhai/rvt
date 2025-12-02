@@ -1,0 +1,11 @@
+"""
+Uzdevums. 
+
+
+Piemērs. 
+
+Ievadi.
+
+Izvadi.
+"""
+
