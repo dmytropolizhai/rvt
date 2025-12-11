@@ -4,15 +4,10 @@ Izskaitļo katra gada summu un izvadā arī kopējo summu par 5 gadiem.
 Izveidoja: Dmytro Polizhai
 """
 
-START_SUM = 800
-YEARS = 5
-PROCENTAGE = 0.07
+year = 0
+sum_with_percentage = 800
 
-year = 1
-sum_with_percentage = START_SUM
-
-while year <= YEARS:
-    sum_with_percentage += sum_with_percentage * PROCENTAGE
+while year <= 5:
+    print(f"{year}. gads - {sum_with_percentage} eiro")
+    sum_with_percentage += sum_with_percentage * 0.07
     year += 1
-
-print(sum_with_percentage)
